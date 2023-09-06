@@ -698,7 +698,7 @@
 
 #footer-nav-quicklinks h2, #footer-nav h2 {
     color: white;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     margin-bottom: 30px;
 }
 
@@ -1186,7 +1186,7 @@
      }
 
      #main-header {
-        background-color: #FCE7B2;
+        background-color: white;
      }
 
      #promo {
@@ -1197,8 +1197,8 @@
      .desktop {
     display: block;
     }
-     #QuatroLogo {
-        width: 80%;
+     #FanshaweLogo {
+        width: 250%;
         margin-left: 20px;
     }
     #tagline {
@@ -1582,7 +1582,7 @@
 
    
 
-    #footer-nav, #footer-nav-quicklinks {
+    #footer-newsletter, #footer-nav, #footer-nav-quicklinks {
         margin-top: 85px;
        
     }
@@ -1637,7 +1637,11 @@
        
     }
 
-  
+    
+    #testimonials-con {
+        height: 900px;
+        /* background-image: url(../images/folder.webp); */
+    }
 
 }
 
@@ -1675,6 +1679,7 @@
      #hero-con {
         height: 455px;
    }
+
 
  .promo {
     height: 427px;
@@ -1929,7 +1934,7 @@
     }
 
 
-    #footer-nav, #footer-nav-quicklinks {
+    #footer-newsletter, #footer-nav, #footer-nav-quicklinks {
         margin-top: 101px;
        
     }
