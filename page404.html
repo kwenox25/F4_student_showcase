@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>Welcome to QUATRO</title>
+    <!-- Link to reset or normalize before main.css
+    only choose one -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Welcome to QUATRO</h1>
+    <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+            <nav id="main-nav" class="col-span-full m-col-start-4 m-col-end-11">
+                <h2 class="hidden">Main Navigation</h2>
+                <button id="button"></button>
+                <div id="burger-con">
+                    <ul id="burger-menu">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="page404.html">ABOUT US</a></li>
+                        <li><a href="shop.html">SHOP</a></li>
+                        <li><a href="page404.html">THE TEAM</a></li>
+                        <li><a href="page404.html">WHY QUATRO</a></li>
+                        <li class="mobile-contact"><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div id="logo" class="col-span-full m-col-start-1 m-col-end-4">
+                <a href="index.html"><img src="images/QuatroLogo.svg" id="QuatroLogo" alt="Couples Resort Logo"></a>
+            </div>
+
+            <div id="contact-now-top" class="m-col-span-2 book-now">
+                <a class="contact-now" href="contact.html">CONTACT</a>
+            </div>
+
+        </header>
+   </div>
+
+
+    <main>
+    <section class="full-width-grid-con" id="notFound">
+        <h2 class="hidden">This is for Page 404</h2>
+      
+            <img class="col-span-full"
+            sizes="100vw"
+            srcset="
+            images/error_qdex5f_c_scale,w_200.jpg 200w,
+            images/error_qdex5f_c_scale,w_536.jpg 536w,
+            images/error_qdex5f_c_scale,w_783.jpg 783w,
+            images/error_qdex5f_c_scale,w_955.jpg 955w,
+            images/error_qdex5f_c_scale,w_1079.jpg 1079w,
+            images/error_qdex5f_c_scale,w_1157.jpg 1157w,
+            images/error_qdex5f_c_scale,w_1200.jpg 1200w"
+            src="images/error_qdex5f_c_scale,w_1200.jpg"
+            alt="Page Not Found" id="error">
+           
+        
+    </section>
+   
+    </main>
+    <footer id="footer-con">
+        <div class="grid-con">
+            <h2 class="hidden">Footer Info</h2>
+
+            <div id="footer-newsletter" class="col-span-full m-col-start-2 m-col-end-5">
+                <img src="images/QuatroWhiteFontOnly.svg" alt="white quatro logo">
+                <h3>STAY IN THE KNOW</h3>
+                <p>Email Address*</p>
+                <form action="email.php" method="POST" enctype="text/plain">
+                    <input name="emailAddress" type="text" required placeholder="email@email.com">
+                    <input name="submit" type="submit" value="SUBMIT">
+                </form>
+            </div>
+
+            <nav id="footer-nav" class="col-start-1 col-end-3 m-col-start-5 m-col-end-7">
+                <h2 id="quick">QUICKLINKS</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page404.html">About Us</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="page404.html">The Team</a></li>
+                    <li><a href="page404.html">Why Quatro</a></li>
+                    
+                </ul>
+            </nav>
+
+            <nav id="footer-nav-quicklinks" class="col-start-3 col-end-5 m-col-start-7 m-col-end-9">
+                <h2>SUPPORT</h2>
+                <ul>
+                    <li><a href="page404.html">Search Terms</a></li>
+                    <li><a href="page404.html">Help & FAQs</a></li>
+                    <li><a href="page404.html">Locations</a></li>
+                    <li><a href="page404.html">Order and Returns</a></li>
+                    <li><a href="page404.html">Careers</a></li>
+                    
+                </ul>
+            </nav>
+
+            <div id="footer-right" class="col-span-full m-col-start-9 m-col-end-13">
+                <h2 class="hidden">Company Info</h2>
+                    <p><i class="fa fa-map-pin"></i>&nbsp;&nbsp;&nbsp;137 Dundas Street,<br>
+                    London, Ontario, Canada, N6A 1E9</p>
+                    
+                    <p class="emailReservations"><i class="fa fa-envelope"></i>&nbsp;&nbsp;&nbsp;inquiry@quatro.com</p>
+                   
+                    <p><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;(1) 519 701 5406</p>
+
+                <div id="footer-icons">
+                    <ul>
+                       
+                        <li><i class="fa fa-instagram"></i> </li>
+                        <li><i class="fa fa-twitter"></i> </li>
+                        <li><i class="fa fa-facebook"></i> </li>
+                        <li><i class="fa fa-youtube-play"></i> </li>
+                    </ul>  
+                </div>
+
+            </div>
+
+         </div>
+    </footer>  
+
+   
+    <script src="js/main.js"></script>
+</body>
+</html>
