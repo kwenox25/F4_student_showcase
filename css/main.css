@@ -1,0 +1,2017 @@
+#main-header {
+    background-color: #FCE7B2;
+}
+
+#main-logo {
+    height: 60px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+#QuatroLogo {
+    width: 65%;
+    margin-left: 50px;
+}
+
+#hero-main {
+    height: 220px;
+    object-fit: cover;
+ }
+
+ .promo {
+    height: 277px;
+    object-fit: cover;
+ }
+
+/* 2. ---Main Nav--- */
+
+#main-nav button {
+    width: 20px;
+    height: 20px;
+    background: url(../images/burger.svg) no-repeat center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+    border: 0;
+ }
+ 
+ #main-nav button.expanded {
+    transform: rotate(90deg);
+ }
+ 
+ #burger-con {
+    margin-top: 36px;
+    margin-bottom: 20px;
+    display: none;
+ }
+ 
+ #burger-con.slide-toggle {
+    display: block;
+ }
+ 
+ #main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #626262;
+ }
+ 
+ #main-nav ul li a:hover {
+    color: #F6871F;
+ }
+ 
+ #main-nav ul li {
+    border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:first-child {
+    border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav ul li:last-child {
+    margin-bottom: 10px;
+ }
+
+ #contact-now-top {
+    display: none;
+ }
+
+.buttonOrange {
+        
+    border-radius: 50px;
+    background-color: #F6871F;
+    border: 2px solid  white;
+}
+
+#shopOnline h4 {
+    color: #F6871F;
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+#shopOnline h4 {
+    color: white;
+    font-size: 11px;
+    padding-top: 16px;
+    text-align: center;
+}
+
+ 
+ #logo {
+    height: 60px;
+    max-width: 288px;
+    margin-bottom: 20px;
+ }
+
+ /* Main Nav  */
+
+#hero-con {
+    background-color: #FCE7B2;
+    height: 600px;
+    object-fit: cover;
+   
+}
+
+#hero-con img {
+    max-width: 250%;
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    justify-self: center;
+}
+
+#notFound {
+    height: 445px;
+    object-fit: cover;
+   
+}
+
+#notFound img {
+    max-width: 100%;
+    grid-column: 1/-1;
+    grid-row: 1/1;
+    justify-self: center;   
+}
+
+#error {
+    grid-row: 1/1;
+    height: 445px;
+     object-fit: cover;
+}
+
+#tagline {
+    margin-top: 230px;
+    grid-row: 1/1;
+}
+
+
+#tagline h3 {
+    margin-top: 19px;
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#tagline h3 span {
+    font-size: 35px;
+    text-align: center;
+    color: #F6871F;
+}
+
+#tagline p {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+#tagline p span {
+    font-size: 35px;
+    text-align: center;
+    color: #F6871F;
+}
+
+.desktop {
+    display: none;
+}
+#hero-can {
+   
+    width: 200%;
+    margin-top: 40px;
+    justify-self: center;
+}
+
+#hero-can-mobile {
+    display: none;
+}
+#hero-con .grid-con {
+  
+     grid-column: 2/3;
+    grid-row: 1/1;
+     margin: 0;
+}
+
+
+#shopOnline h4 {
+    color: white;
+    font-size: 12px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+
+.highlight-orange {
+    color: #F6871F;
+}
+
+.playButton {
+    background-color: #EE6161;
+    border-radius: 50%;
+    outline: none;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+/* 
+.playButton {
+    grid-row: 2/3;
+} */
+
+#myVideo {
+    width: 100% !important;
+    height: auto;
+    max-width: 1920px !important;
+    max-height: 1080px !important;
+    position: relative;
+}
+
+.playButton i {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+.buttonEffect:hover {
+    box-shadow: #F69797 0 0 0 10px, transparent 0 0 0 0;
+  }
+
+
+#hero-con h5 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    grid-row: 3/3;
+    height: 75px;
+}
+
+
+#shopOnline {
+    margin-top: -90px;
+    height: 34px;
+    grid-row: 4/4;
+    border-radius: 50px;
+}
+
+#shopOnline:hover {
+    color: #B29961;
+    background-color: white;
+    border: 2px solid  #B29961;
+}
+
+#shopOnline > h4:hover {
+    color: #B29961;
+}
+
+#features-con {
+    background-color: #E3F4EE;
+    height: 919px;
+}
+
+#productsCon2 {
+    background-color: #FFF5F4;
+    height: 523px;
+}
+
+#product-two, #product-three, #product-four, #product-five {
+    display: none;
+}
+
+.Qproduct {
+    background-color: #FFF5F4;
+    border-radius: 100px;
+    height: 315px;
+}
+
+.Qproduct:hover {
+    background-color: #FFD2DC;
+}
+
+.Qproduct img:hover {
+    transform: scale(0.8);
+    transition: .5s ease;
+}
+#productsCon2 h2 {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #2c2c2c;
+    font-weight: 700;
+    text-align: left;
+   
+}
+
+#product-one {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+#features-con h2 {
+    margin-top: 25px;
+    height: 54px;
+    font-size: 30px;
+    color: #435350;
+    font-weight: 500;
+    text-align: center;
+}
+
+#products-con h2 {
+    margin-top: 30px;
+    font-size: 35px;
+    color: #435350;
+    font-weight: 700;
+    text-align: left;
+   
+}
+
+
+.feature {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 15px 0px;
+      
+    text-align: center;
+    /* border: 3px solid  #F6871F; */
+    background-color: #A4BB6A;
+    border-radius: 30% 0 0 0;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.feature img {
+    margin-left: 35px;
+    display: flex;
+    margin-top: 25px;
+    width: 50%;
+}
+
+.feature:hover {
+    background-color: #8aa051;
+}
+
+.feature h3 {
+    font-size: 16px;
+    margin-top: 15px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+#aboutUs-con {
+    background-color: #FFF5F4;
+    height: 1500px;
+}
+
+#aboutUs-con .grid-con {
+    grid-row: 1/3;
+}
+
+#aboutUs-con div img {
+    border-radius: 30px;
+}
+
+#products-con {
+    height: 500px;
+    color: white;
+    background-color: #FFF5F4;
+}
+
+
+.specialOffers {
+    height: 118px;   
+}
+
+
+.drinksNumber {
+    background-color: #FB8779;
+    height: 475px;
+    border-radius: 30px;
+}
+
+.drinksNumber h3 {
+    margin-top: 100px;
+    transform: rotate(-10deg);
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    text-shadow: 
+    1px 0px 1px #cc7066, 0px 1px 1px #f08c81, 
+    2px 1px 1px #cc7066, 1px 2px 1px #f08c81,
+    3px 2px 1px #cc7066, 2px 3px 1px #f08c81,
+    4px 3px 1px #cc7066, 3px 4px 1px #f08c81,
+    5px 4px 1px #cc7066, 4px 5px 1px #f08c81,
+    6px 5px 1px #cc7066, 5px 6px 1px #f08c81,
+    7px 6px 1px #cc7066;
+}
+
+.drinksNumber h4 {
+    margin-top: 10px;
+    transform: rotate(-10deg);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    text-shadow: 
+    1px 0px 1px #cc7066, 0px 1px 1px #f08c81, 
+    2px 1px 1px #cc7066, 1px 2px 1px #f08c81,
+    3px 2px 1px #cc7066, 2px 3px 1px #f08c81,
+    4px 3px 1px #cc7066, 3px 4px 1px #f08c81,
+    5px 4px 1px #cc7066, 4px 5px 1px #f08c81,
+    6px 5px 1px #cc7066, 5px 6px 1px #f08c81,
+    7px 6px 1px #cc7066;
+}
+
+
+.drinksNumber h3 span {
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.drinksNumber h4 span {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.foodDisplay {
+    height: 232px;   
+}
+
+.drinksDisplay {
+    height: 232px;
+
+}
+
+.latestProducts {
+    padding-top: 55px;
+    height: 118px;
+    display: flex;
+    justify-content: center;
+    background-color: #BFE4F6;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 22px;
+}
+
+.latestProducts i {
+    font-size: larger;
+    color: #FCCB42;
+    transform: rotate(-30deg);
+}
+
+#products-h2 { 
+    height: 54px;
+}
+
+
+.product {
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+#product2, #product3, #product4 {
+    display: none;
+}
+
+.dot-slider {
+    text-align: center;
+}
+.dot {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-slider .dot:first-child {
+    background-color: black;
+}
+
+
+
+
+
+#ourPartners-h2 {
+    height: 54px;
+}
+
+#ourPartners {
+    background: rgb(151,215,237);
+    background: linear-gradient(114deg, rgba(151,215,237,1) 0%, rgba(193,236,251,1) 48%, rgba(124,201,228,1) 100%);
+    height: 1105px;
+}
+
+
+.ourPartners-logo {
+    margin-top: 50px;
+    height: 130px;
+}
+
+
+.questionCon button {
+    cursor: pointer;
+}
+
+
+#ourPartners h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#ourPartners ul {
+    padding-left: 0;
+}
+
+#ourPartners ul li {
+    margin-bottom: 20px;
+    list-style: none;
+    
+}
+
+#ourPartners ul li button {
+    background-color: #FBFFC4;
+    border: #2c2c2c 2px solid;
+    border-radius: 30px;
+    height: 56px;
+    width: 290px;
+   
+}
+
+#ourPartners ul li button:hover {
+    background-color: #f9c9a4;
+    cursor: pointer;
+}
+
+
+#nutritionalFacts, #drinkDaily, #quatroStandard {
+    width:  290px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #e3f6ff;
+}
+
+#nutritionalFacts p {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: left;
+    border-bottom: #435350 1px solid;
+    margin-bottom: 10px;
+}
+
+#drinkDaily p, #quatroStandard p {
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 10px;
+    text-align: left;
+}
+
+#nutritionalFacts, #drinkDaily {
+    display: none;
+}
+
+#testimonialCon {
+    height: 654px;
+    background-color: #FFF5F4;
+}
+
+
+#promoProduct {
+    height: 270px;
+    position: relative;
+    margin-top: 30px;
+   
+    
+}
+
+#promoProduct img {
+    border-radius: 30px;
+}
+
+.linktoProducts {
+    position: absolute;
+    top: 180px;
+    left: 15px;
+    height: 62px;
+    width: 260px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #2c2c2c;
+}
+
+.linktoProducts h3 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.linktoProducts hr {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 237px;
+}
+
+.linktoProducts p {
+    font-size: 14px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#testimonialCon h4 {
+    font-size: 25px;
+    border-bottom: 3px solid #2c2c2c;
+}
+
+#testimonialCon h5 {
+    margin-top: 18px;
+}
+
+.testimoneeJob {
+    margin-top: -40px;
+    font-size: 12px;
+}
+
+.testimonialUser {
+    margin-top: 15px;
+    border-radius: 50%;
+}
+
+#footer-newsletter input {
+	width: 290px;
+	height: 43px;
+    padding: 8px;
+    border: 2px solid #F6871F;
+    border-radius:  30px;
+    background-color: #f7f7f7;
+    margin-bottom: 15px;
+    font: inherit;
+}
+
+#footer-newsletter h3, #footer-newsletter p {
+    color: white;
+	margin-left: 0;
+    margin-bottom: 10px;
+}
+#footer-newsletter textarea {
+    height: 300px;
+}
+
+#footer-newsletter label {
+    color: white;
+	font-size: 26px;
+}
+
+#footer-newsletter input[type="submit"] {
+    width: 290px;
+	height: 43px;
+    background-color: #F6871F;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+	font: inherit;
+}
+
+#footer-newsletter input[type="submit"]:hover {
+    background-color: white;
+    color: #F6871F;
+    cursor: pointer;
+}
+
+#footer-nav-quicklinks h2, #footer-nav h2 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#footer-nav ul, #footer-nav-quicklinks ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#footer-nav ul li, #footer-nav-quicklinks ul li {
+    margin-bottom: 10px;
+    
+}
+
+#footer-nav ul li a, #footer-nav-quicklinks ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+#email {
+    margin-top: 10px;
+}
+
+#email-submit {
+    margin-top: 10px;
+}
+
+#quicklinks, #support {
+    margin-top: 30px;
+}
+
+#footer-icons {
+    margin-top: 30px;
+}
+
+#footer-newsletter img {
+    
+    width: 80%;
+    margin: 20px 0 20px 20px;
+}
+
+#footer-right p {
+    color: white;
+    margin-top: 15px;
+}
+
+#footer-icons ul {
+    padding-left: 0;
+}
+
+#footer-right i {
+    color: white;
+}
+
+#footer-icons ul li {
+    color: white;
+    font-size: 30px;
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+#footer-icons ul li i {
+   font-size: 40px;
+}
+
+
+.hr-style {
+    margin-bottom: 30px;
+    border-left: 0;
+    height: 3px;
+    background-color: black;
+}
+
+#footer-nav ul li a:hover, #footer-nav-quicklinks ul li a:hover {
+    color: #F6871F;
+    
+}
+
+#quick:hover {
+    color: #F6871F;
+}
+
+#footer-icons ul li i:hover {
+    color: #F6871F;
+}
+
+#footer-con {
+    height: 830px;
+    background-color: #3E1F5E;
+}
+
+/* Contact Page */
+
+#contactSec {
+    height: 1381px;
+    background-color: #FFF5F4;
+
+
+}
+
+#helpSection-left {
+    margin-top: 50px;
+}
+
+.needOrder h3, .press h3, .careers h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.needOrder ul li a, .press p a, .careers p a {
+    color: #2c2c2c;
+}
+
+.needOrder ul li a:hover, .press p a:hover, .careers p a:hover {
+    border-bottom: 2px solid #F6871F;
+}
+
+
+.needOrder ul li {
+    margin-bottom: 22px;
+}
+
+#contacts-icons ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contacts-icons ul li {
+    display: inline-block;
+    font-size: 50px;
+    color: #F6871F;
+    margin-right: 20px;
+}
+
+#contacts-icons ul li i:hover {
+    color: #2c2c2c;
+}
+
+#contact-form-fields-right {
+    margin-top: 30px;
+}
+
+#contact-form-fields-right h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#contact-form-fields-right form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form-fields-right input, textarea {
+    padding: 6px;
+    margin-bottom: 10px;
+    border-style: none;
+    height: 46px;
+}
+
+#contact-form-fields-right form label span {
+   color: red;
+}
+
+#contact-form-fields-right select {
+    height: 46px;
+    background-color: white;
+    border-style: none;
+    color: #626262;
+    margin-bottom: 10px;
+}
+
+#contact-form-fields-right label {
+   margin-bottom: 10px;
+
+}
+
+#contact-form-fields-right input[type="submit"] {
+    margin-top: 10px;
+    border: none;
+    background-color: #F6871F;
+    transition: all 200ms ease-in;
+}
+
+#contact-form-fields-right input[type="submit"]:hover {
+    background-color: white;
+    color: #F6871F;
+    border: 2px solid #F6871F;
+    
+}
+#lineSeparator {
+    height: 5px;
+    border-bottom: 3px solid #2c2c2c;
+    padding-top: 20px;
+}
+
+/* Shop Page */
+#shopSection {
+    height: 2238px;
+}
+
+#promo-con {
+   background-color: #212221;
+}
+.promo {
+    height: 427px;
+    
+}
+
+#product-section {
+    padding-top: 40px;
+   background-color: #FFF5F4;
+}
+#promo-con h2 {
+    color: white;
+}
+
+.product-heading {
+    font-weight: 500;
+}
+
+#product-photos {
+    padding-top: 10px;
+    background-color: #FFF5F4;
+}
+
+
+.items {
+    background-color: #F69797;
+    height: 393px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+.items:hover .product-details {
+	opacity: 1;
+}
+
+.product-details {
+    margin-top: -30px;   
+    text-align: center;
+    height: 30px; 
+	transition: .7s ease;
+	opacity: 0;
+    position: relative;
+} 
+
+.product-details h3 {
+    color: white;
+	text-align: center;
+    font-size: 25px; 
+
+}
+
+.product-heading select {
+    height: 45px;
+   border-style: none;
+   width: 270px;
+   background-color: white;
+}
+.filter h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#product-section p {
+    text-align: right;
+}
+
+.categories ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.categories ul li {
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.categories ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.categories ul li a:hover {
+    border-bottom: 3px solid #F6871F;
+}
+
+.categories h3 {
+    font-size: 30px;
+}
+
+.tags h3 {
+    font-size: 30px;
+}
+
+.categories {
+    order: 5;
+}
+  .tags {
+    order: 6;
+  }
+
+#product-photos {
+    margin-top: 0;
+}
+
+.addtoCart {
+    border-radius: 30px;
+    background-color: #F6871F;
+    height: 45px;
+    width: 204px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+.addtoCart h4 {
+    color: white;
+    font-weight: 500;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+
+.lightbox { 
+    width: 70vw; /* vw = viewport width => screen width */
+    height: 100vh; /* vh = viewport height => screen height */
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    background-color: #FFFDE6;
+    background-repeat: no-repeat;
+    background-size: 55vh; /* 55% of the viewport height */
+    background-position: 40px bottom;
+    z-index: 5000;
+    display: none;
+    border: 3px solid #F6871F;
+}
+
+.lightbox_close {
+    position: relative;
+    top: 20px;
+    left: 90%;
+
+    color: #212221;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+}
+
+.lightbox_close:hover { opacity: 0.5; color: #F6871F; }
+
+.lightbox article {
+    width: 92%;
+    /* margin-left: 40%; */
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.lightbox  article p {
+    line-height: 1.6 !important;
+}
+
+.lightbox  article h2 {
+    font-size: 60px;
+}
+
+.productPrice h3 {
+    font-size: 30px;
+}
+
+.productPrice p {
+    text-align: right;
+}
+
+.quantity {
+    border: 1px solid #212221;
+    padding: 10px 20px 10px 20px;
+}
+.price {
+    font-weight: 700;
+}
+
+.lightbox  article img {
+    max-width: 10%;
+    background-color: white;
+    border: 2px solid #F6871F;
+}
+
+.paragraphBold, .totalAmount {
+    font-weight: 700;
+}
+.totalAmount, .shipping {
+    text-align: right;
+}
+
+.shipping {
+    font-size: 12px;
+}
+
+.standardShipping {
+    font-size: 12px;
+    text-align: center;
+}
+
+.standardShipping span {
+    font-weight: 700;
+}
+
+.lightbox:target { display: block; }
+
+.tags ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.tags ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.tags ul li a {
+    font-size: 18px;
+    color: #2c2c2c;
+    line-height: 1.5em;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.tags ul li a:hover {
+    color: white;
+    background-color: #F6871F;
+    padding: 5px;
+    box-shadow: inset 200px 0 0 0 #F6871F;;
+   
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+.payment {
+    background-color: #F6871F;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.payment h3 {
+    color: white;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.payment:hover {
+    background-color: white;
+    border: 2px solid #F6871F;
+}
+
+.payment h3:hover {
+    
+    color: #F6871F;
+    text-align: center;
+    padding-top: 13px;
+}
+
+#myVideo { display: none; }
+
+@media screen and (min-width: 768px) {
+
+    #sticky-nav-con {
+        position: sticky;
+        top: 0px;
+        /* border-bottom: solid 1px #FCE7B2; */
+        z-index: 1; 
+       
+        /* had to set z-index as css filters was causing images to overlap, see below */
+     }
+
+     #main-header {
+        background-color: #FCE7B2;
+     }
+
+     #promo {
+        height: 277px;
+        object-fit: cover;
+     }
+
+     .desktop {
+    display: block;
+    }
+     #QuatroLogo {
+        width: 80%;
+        margin-left: 20px;
+    }
+    #tagline {
+        margin-top: 67px;
+    }
+    #tagline h3 {
+        margin-left: 0;
+        text-align: left;
+        font-size: 40px;
+        margin-top: 0; 
+    }
+
+    #tagline h3 span {
+        margin-left: 0;
+        text-align: left;
+        font-size: 40px;
+    }
+
+    #tagline p {
+        margin-left: 0;
+        text-align: left;
+        font-size: 40px;  
+    }
+
+    #tagline p span {
+        text-align: left;
+        font-size: 60px;
+        
+    }
+
+    #hero h4 {
+        margin-top: 30px;
+    }
+
+     #button {
+        display: none;
+     }
+  
+     #logo {
+        width: 100%;
+        margin-top: 32px;
+        order: -1;
+     }
+  
+     #burger-con {
+        display: block;
+        font-size: 12px;
+     }
+  
+     #burger-con ul li, #burger-con ul li:first-child {
+        border: none;
+        display: inline;
+     }
+  
+     #main-nav ul li a {
+        font-size: 14px;
+        display: inline;
+     }
+
+     .mobile {
+        display: none;
+     }
+  
+     #burger-con ul li {
+        margin-right: 10px;
+     }
+  
+     #burger-con ul li:last-child {
+        margin-right: 0;
+     }
+
+     #main-nav ul li:last-child {
+        display: none;
+     }
+  
+     #main-nav {
+        
+        margin-top: 4%;
+        margin-bottom: 4%;
+        padding-left: 30px;
+     }
+  
+
+
+     #contact-now-top {
+        color: #fff;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+     } 
+
+    .contact-now {
+        color: #fff;
+        font-family: 'Outfit';
+        text-align: center;
+        padding: 10px;
+        border-radius: 20px;
+        background-color: #F6871F;
+        font-size: 16px;
+        font-weight: 400;   
+    }
+    
+    #contact-now-top {
+        color: white;
+    }
+    
+    .contact-now:hover {
+        background-color: #F6871F;
+        color: #435350;
+    }
+    
+
+    #hero-con {
+        background-color: white;
+        height: 398px;
+    }
+
+    #hero-con img {
+        max-width: 100%;
+    }
+
+    #hero-main {
+        height: 398px;
+    }
+
+
+    #hero-can {
+        width: 100%;
+        margin-top: 85px;
+        
+    }
+
+    .hero h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+    
+
+    #features-con {
+       
+        height: 416px;
+    }
+
+    .feature {
+         height: 126px;
+        width: 127px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .feature:nth-child(3) {
+       margin-left: 34px;
+    }
+
+    .feature:nth-child(4) {
+        margin-left: 7px;
+     }
+
+     .feature:last-child {
+        margin-left: -20px;
+     }
+
+    #features-con h2 {
+        margin-top: 30px;
+        font-size: 35px;
+        color: #435350;
+        font-weight: 500;
+        text-align: center;
+    }
+
+   
+
+    #features-box {
+        margin-top: 50px; 
+    }
+
+    .feature img {
+        margin-left: 40px;
+        display: flex;
+        margin-top: 20px;
+        width: 40%;
+    }
+
+    #products-con {
+        height: 490px;  
+    }
+
+    #productsCon2 {
+        height: 354px;
+    }
+
+    .Qproduct {
+        height: 201px;
+    }
+    #product-two, #product-three, #product-four, #product-five {
+        display: flex;
+        object-fit: cover;
+        justify-content: center;
+    }
+
+
+   #aboutUs-con {
+    background-color: #FFF5F4;
+    height: 400px;
+    }
+
+    .specialOffers {
+        height: 95px;
+        grid-row: 2/3;
+    }
+    
+    .drinksNumber {
+        height: 303px;
+        position: relative;
+        grid-row: 2/3;
+    }
+
+        
+    .drinksNumber h3 {
+        margin-top: 80px;
+        transform: rotate(-10deg);
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .drinksNumber h4 {
+        margin-top: 10px;
+        transform: rotate(-10deg);
+        font-size: 10px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+
+    .drinksNumber h3 span {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .drinksNumber h4 span {
+        font-weight: 500;
+        font-size: 12px;
+    }
+        
+    .foodDisplay {
+        margin-top: 110px;
+        height: 190px;
+        grid-row: 2/3;
+    }
+    
+    .drinksDisplay {
+        height: 190px;
+        grid-row: 2/3;
+    }
+    
+    .latestProducts { 
+        margin-top: 210px;
+        height: 95px;
+        grid-row: 2/3;
+    }
+
+
+    
+    #ourPartners {
+    height: 520px;
+    }
+
+    #ourPartners ul li button {
+        height: 34px;
+        width: 363px;
+       
+    }
+
+    #drinkDaily p, #quatroStandard p, #nutritionalFacts p {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    #nutritionalFacts, #drinkDaily, #quatroStandard {
+        width:  363px;
+    }
+    
+
+    
+    #ourPartners h2 {
+        margin-top: 30px;
+        font-size: 35px;
+        color: #435350;
+        font-weight: 700;
+        text-align: center;
+       
+    }
+
+    
+    #testimonialCon {
+        height: 708px;
+        
+    }
+
+    #quotation {
+        height: 40px;
+    }
+    
+    #promoProduct {
+        height: 279px;
+        
+    }
+
+    #testimonialCon h4 {
+        height: 180px;
+    }
+
+    .linktoProducts {
+        top: 230px;
+        height: 62px;
+        width: 332px;
+    }
+
+    .linktoProducts p {
+        font-size: 14px;
+        padding-top: 0;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    
+
+    .linktoProducts hr {
+       
+        width: 305px;
+    }
+
+    #testimonialCon h4 {
+        font-size: 35px;
+    }
+
+    #testimonialCon h5 {
+        font-size: 25px;
+    }
+
+    .testimoneeJob {
+        margin-top: -50px;
+        font-size: 16px;
+    }
+
+    #footer-con {
+        height: 310px;
+    }
+
+    #footer-newsletter img {
+        margin-left: 0;
+        width: 100%;
+        grid-row: 1/2;
+    }
+
+    #footer-newsletter p {
+        font-size: 12px;
+    }
+
+    #footer-newsletter input {
+        width: 169px;
+        height: 28px;
+    }
+
+    #footer-newsletter input[type="submit"] {
+        width: 169px;
+        height: 28px;
+    }
+
+    #footer-newsletter input[type="text"], #footer-newsletter input[type="submit"] {
+        font-size: 12px;
+    }
+
+    #footer-nav ul li a, #footer-nav-quicklinks ul li a {
+        font-size: 12px;
+       
+    }
+
+   
+
+    #footer-nav, #footer-nav-quicklinks {
+        margin-top: 85px;
+       
+    }
+
+    #footer-nav h2, #footer-nav-quicklinks h2 {
+        margin-bottom: 10px;
+       
+    }
+
+    #footer-nav ul li, #footer-nav-quicklinks ul li {
+        margin-bottom: 0;
+       
+    }
+
+    #footer-right {
+        margin-top: 100px;
+    }
+    #footer-right p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    #footer-icons {
+        margin-top: 0;
+    }
+    #footer-icons ul li {
+        margin-right: 25px;
+    }
+
+    #footer-icons ul li i {
+        font-size: 25px;
+    }
+
+    /* Contact Page */
+
+    #contactSec {
+        height: 680px;
+    }
+    .categories {
+        order: 5;
+      }
+      .tags {
+        order: 6;
+      }
+
+      #notFound {
+        height: 800px;
+    }
+    
+    #error {
+        height: 800px;
+       
+    }
+
+  
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    #logo {
+        width: 70%;
+        margin-left: 20px;
+    }
+
+    #main-header {
+        height: 110px;
+     }
+
+     #main-nav {
+        margin-top: 3%;
+        margin-bottom: 2%;
+        margin-left: 25px;
+     }
+
+     #main-nav ul li a {
+        font-size: 18px;
+     }
+  
+     #burger-con ul li {
+        margin-right: 30px;
+        
+     }
+  
+     #burger-con {
+        margin-top: 28px;
+     }
+  
+
+     #hero-con {
+        height: 455px;
+   }
+
+ .promo {
+    height: 427px;
+    object-fit: cover;
+ }
+ 
+   #hero-can {
+    width: 100%;
+    margin-top: 120px;
+    
+    }
+
+    
+    #tagline {
+        margin-top: 21px;
+     }
+
+     .hero h4 {
+        text-align: left;
+     }
+
+    #tagline h3 {
+        margin-left: 50px;
+        font-size: 60px;
+        margin-top: 10px; 
+    }
+
+    #tagline h3 span {
+        font-size: 60px;
+    }
+
+    #tagline p {
+        margin-left: 50px;
+        font-size: 60px;  
+    }
+
+    #tagline p span {
+        font-size: 80px;
+    }
+
+    #hero-main {
+         height: 455px;
+    }
+
+    
+
+
+    #features-con {
+        
+        height: 387px;
+    }
+   
+    .feature {
+        height: 180px;
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+
+    .feature img {
+        margin-left: 50px;
+        display: flex;
+        margin-top: 20px;
+        width: 50%;
+    }
+
+    #features-con h2 {
+        margin-top: 30px;
+        font-size: 35px;
+        color: #435350;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .feature:nth-child(3) {
+        margin-left: 59px;
+     }
+ 
+     .feature:nth-child(4) {
+         margin-left: 16px;
+      }
+ 
+      .feature:last-child {
+         margin-left: -28px;
+      }
+
+      .feature h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    #products-con {
+        height: 479px;
+        
+    }
+
+    #productsCon2 {
+        height: 575px;
+    }
+
+
+    .Qproduct {
+        height: 315px;
+    }
+/* 
+    .product {
+        height: 255px;
+        margin-bottom: 20px;
+    } */
+
+    #aboutUs-con {
+        background-color: #FFF5F4;
+        height: 622px;
+    }
+
+    .specialOffers {
+        height: 150px;
+        grid-row: 2/3;
+    }
+    
+    .drinksNumber {
+        height: 474px;
+        position: relative;
+        grid-row: 2/3;
+    }
+
+       
+    .drinksNumber h3 {
+        margin-top: 100px;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .drinksNumber h3 span {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+  
+
+    .drinksNumber h4 {
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .drinksNumber h4 span {
+       line-height: 30px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+   
+    .foodDisplay {
+        margin-top: 180px;
+        height: 297px;
+        grid-row: 2/3;
+    }
+    
+    .drinksDisplay {
+        height: 297px;
+        grid-row: 2/3;
+    }
+    
+    .latestProducts { 
+        margin-top: 322px;
+        height: 150px;
+        grid-row: 2/3;
+    }
+
+    #ourPartners {
+        height: 797px;
+    }
+
+    #ourPartners ul li button {
+        height: 56px;
+        width: 570px;
+       
+    }
+
+    #nutritionalFacts, #drinkDaily, #quatroStandard {
+        width:  570px;
+    }
+
+
+     
+    #testimonialCon {
+        height: 464px;
+        
+    }
+    #promoProduct {
+        height: 6px;
+    }
+    .linktoProducts {
+        top: 250px
+    }
+
+    .testimonialUser {
+        margin-top: -30px;
+    }
+
+    #testimonialCon h4 {
+        margin-top: -20px;
+        height: 133px; 
+    }
+
+    #testimonialCon h5 {
+        margin-top: -30px;
+    }
+    #quotation {
+        margin-top: 50px;
+    }
+
+    .testimoneeJob {
+        margin-top: -80px;
+    }
+
+   
+    #footer-con {
+        height: 350px;
+    }
+
+    #footer-newsletter img {
+        margin-left: -15px;
+        width: 80%;
+        grid-row: 1/2;
+    }
+
+    #footer-newsletter p {
+        font-size: 16px;
+    }
+
+    #footer-newsletter input {
+        width: 268px;
+        height: 40px;
+    }
+
+    #footer-newsletter input[type="submit"] {
+        width: 268px;
+        height: 40px;
+    }
+
+    #footer-newsletter input[type="text"], #footer-newsletter input[type="submit"] {
+        font-size: 16px;
+    }
+
+    #footer-nav ul li a, #footer-nav-quicklinks ul li a {
+        font-size: 16px;
+       
+    }
+
+
+    #footer-nav, #footer-nav-quicklinks {
+        margin-top: 101px;
+       
+    }
+
+    #footer-nav h2, #footer-nav-quicklinks h2 {
+        margin-bottom: 10px;
+       
+    }
+
+    #footer-nav ul li, #footer-nav-quicklinks ul li {
+        margin-bottom: 8px;
+       
+    }
+
+    #footer-right {
+        margin-top: 113px;
+    }
+    #footer-right p {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    #footer-icons {
+        margin-top: 0;
+    }
+    #footer-icons ul li {
+        margin-right: 25px;
+    }
+
+    #footer-icons ul li i {
+        font-size: 25px;
+    }
+   
+    /* Contact Page */
+
+    #contactSec {
+        height: 731px;
+    }
+
+    #product-grapefruit {
+        order: 1;
+    }
+
+    #product-pineapple {
+        order: 1;
+    }
+
+    #product-photos {
+        margin-top: -30px;
+    }
+    .categories {
+        margin-top: 40px;
+        order: 1;
+      }
+
+    #product-orange {
+        order: 1;
+    }
+
+    #product-passionfruit {
+        order: 2;
+    }
+
+    .tags {
+        order: 6;
+      }
+      /* Shop */
+      .product-details {
+        margin-top: -110px; 
+    }
+    .addtoCart {
+       
+        margin-left: 80px;
+    }
+    
+    #notFound {
+        height: 826px;
+    }
+    
+    #error {
+        height: 826px;
+       
+    }
+}
+
