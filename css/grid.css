@@ -18,6 +18,9 @@ html {
   box-sizing: inherit; 
 }
 
+main {
+   background-color: #3E1F5E;
+}
 /* ---Mini CSS reset--- */
 
 body, p, h1, h2, h3, h4, h5 {
