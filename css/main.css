@@ -1706,14 +1706,30 @@
     .student-names ul li {
        text-align: center;
       margin-bottom: 10px;
+      
 
     }
 
     .student-names ul li a {
         color: white;
-        font-size: 20px;    
+        font-size: 18px;    
  
      }
+
+     .review {
+       padding: 25px;
+       background-color: #fff;
+       border-radius: 0 30px 0  0;
+     }
+
+     .review p {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+
+     .review h3 {
+        padding-top: 15px;
+        text-align: center;
+      }
    
 
 }
