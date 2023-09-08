@@ -86,27 +86,25 @@
     display: none;
  }
 
-.buttonOrange {
+.buttonReg {
         
     border-radius: 50px;
-    background-color: #F6871F;
+    background-color: #49b293;
     border: 2px solid  white;
 }
 
-#shopOnline h4 {
-    color: #F6871F;
-    padding-top: 25px;
-    text-align: center;
+
+#registerNow {
+    height: 50px;
+    grid-column: 1/-1;
+    grid-row: 3/3;
+    margin-bottom: 80px;
 }
 
-
-#shopOnline h4 {
-    color: white;
-    font-size: 11px;
-    padding-top: 16px;
+.buttonReg h3 {
+    color: black;
     text-align: center;
 }
-
  
  #logo {
     height: 60px;
@@ -159,27 +157,27 @@
     margin-top: 19px;
     font-size: 35px;
     text-align: center;
+    color: white;
     
 }
 
-#tagline h3 span {
-    font-size: 35px;
-    text-align: center;
-    color: #F6871F;
+#tagline h4, h5 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
 
 #tagline p {
-    font-size: 35px;
-    font-weight: 700;
-    text-align: center;
-    
+    color: white;
+   
 }
 
-#tagline p span {
-    font-size: 35px;
-    text-align: center;
-    color: #F6871F;
+.date-industry {
+    color: #49b293;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
+
 
 .desktop {
     display: none;
@@ -1199,6 +1197,15 @@
 	font-size: 0;
 }
 
+#registerNow {
+    margin-top: 20px;
+}
+#registerNow h3 {
+    padding: 15px;
+    color: white;
+    font-size: 12px;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -1208,6 +1215,7 @@
         top: 0px;
         /* border-bottom: solid 1px #FCE7B2; */
         z-index: 1; 
+        background-color: #fff;
        
         /* had to set z-index as css filters was causing images to overlap, see below */
      }
@@ -1238,25 +1246,22 @@
         margin-top: 0; 
     }
 
-    #tagline h3 span {
-        margin-left: 0;
+    #tagline h4 {
         text-align: left;
-        font-size: 40px;
     }
+
+
+
 
     #tagline p {
         margin-left: 0;
         text-align: left;
-        font-size: 40px;  
+        font-size: 15px;  
     }
 
-    #tagline p span {
-        text-align: left;
-        font-size: 60px;
-        
-    }
 
     #hero h4 {
+        
         margin-top: 30px;
     }
 
@@ -1730,6 +1735,115 @@
         padding-top: 15px;
         text-align: center;
       }
+
+    .success-con {
+        margin: 1rem;
+        position: relative;
+        overflow: hidden;
+        height: 31%;
+        }
+
+        .slides-container {
+        width: 100%;
+        display: flex;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        height: max-content;
+        }
+
+        
+        .slide-arrow {
+        position: absolute;
+        display: flex;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: 4rem;
+        background-color: white;
+        border: none;
+        width: 2rem;
+        font-size: 3rem;
+        padding: 0;
+        cursor: pointer;
+        opacity: 0.5;
+        transition: opacity 100ms;
+        }
+
+        .slide-arrow:hover,
+        .slide-arrow:focus {
+        opacity: 1;
+        }
+
+        #slide-arrow-prev {
+        left: 0;
+        padding-left: 0.25rem;
+        border-radius: 0 2rem 2rem 0;
+        }
+
+        #slide-arrow-next {
+        right: 0;
+        padding-left: 0.75rem;
+        border-radius: 2rem 0 0 2rem;
+        }
+
+        .slide {
+        width: 100%;
+        height: 31%;
+        flex: 1 0 100%;
+        }
+
+        .slide p{
+            color: #ffff;
+            text-align: center;
+            font-size: 19px;
+            line-height: 1.5;
+            margin-top: 7%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .slide:nth-child(1) {
+        background-color: #49b293;
+        }
+
+        .slide:nth-child(2) {
+        background-color: #b03532;
+        }
+
+        .slide:nth-child(3) {
+        background-color: #6a478f;
+        margin: 0;
+        }
+
+        .slide:nth-child(4) {
+        background-color: #da6f2b;
+        }
+
+        .slides-container {
+
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        }
+        
+        /* WebKit */
+        
+        .slides-container::-webkit-scrollbar { 
+            width: 0;
+            height: 0;
+        }
+
+       
+        #registerNow {
+            height: 50px;
+            grid-column: 1/4;
+            grid-row: 3/3;
+            margin-bottom: 80px;
+        }
+        
    
 
 }
@@ -1797,18 +1911,25 @@
         color: white;
     }
 
-    #tagline h3 span {
-        font-size: 60px;
+    #tagline h4, h5 {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+
+    .date-industry {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #tagline h5 {
+        font-size: 20px;
     }
 
     #tagline p {
         margin-left: 50px;
-        font-size: 60px;  
+        font-size: 20px;
     }
 
-    #tagline p span {
-        font-size: 80px;
-    }
 
     #hero-main {
          height: 455px;
@@ -2108,5 +2229,16 @@
         height: 826px;
        
     }
+
+    #registerNow h3 {
+        font-size: 15px;
+    }
+    #registerNow {
+        margin-left: 50px;
+        grid-column: 1/4;
+        grid-row: 3/3;
+       
+    }
+    
 }
 
