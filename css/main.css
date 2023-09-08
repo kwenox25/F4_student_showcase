@@ -1184,6 +1184,13 @@
 	height: 40vh;
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.gallery::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
 }
 
 .active {
@@ -1756,7 +1763,7 @@
 
         
         .slide-arrow {
-        position: absolute;
+        /* position: absolute; */
         display: flex;
         top: 0;
         bottom: 0;
