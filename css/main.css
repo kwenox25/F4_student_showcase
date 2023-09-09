@@ -684,7 +684,7 @@
 }
 
 #footer-newsletter h3, #footer-newsletter p {
-    color: white;
+    color: #f4eaff;
 	margin-left: 0;
     margin-bottom: 10px;
 }
@@ -693,7 +693,7 @@
 }
 
 #footer-newsletter label {
-    color: white;
+    color: #f4eaff;
 	font-size: 26px;
 }
 
@@ -714,7 +714,7 @@
 }
 
 #footer-nav-quicklinks h2, #footer-nav h2 {
-    color: white;
+    color: #f4eaff;
     /* margin-top: 30px; */
     margin-bottom: 30px;
 }
@@ -766,11 +766,11 @@
 }
 
 #footer-right i {
-    color: white;
+    color: #f4eaff;
 }
 
 #footer-icons ul li {
-    color: white;
+    color: #f4eaff;
     font-size: 30px;
     list-style: none;
     display: inline;
@@ -790,16 +790,16 @@
 }
 
 #footer-nav ul li a:hover, #footer-nav-quicklinks ul li a:hover {
-    color: #F6871F;
+    color: #83ECD3;
     
 }
 
 #quick:hover {
-    color: #F6871F;
+    color: #83ECD3;
 }
 
 #footer-icons ul li i:hover {
-    color: #F6871F;
+    color: #83ECD3;
 }
 
 #footer-con {
@@ -1249,6 +1249,33 @@
 .tools ul li h4 {
     display: none;
 }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 
 #IDP h3 {
     color: white;
