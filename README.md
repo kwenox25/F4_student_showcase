@@ -19,10 +19,11 @@ No installation is needed for this site. HTMLs will work on any browsers.
 
 ## Credits
 
-Kwency Maye Dahilan
-Apple Grace Gesalan
-Jemima Ama Neizer
-Estefania Aguilar-Velez
+1. Kwency Maye Dahilan
+2. Jemima Ama Neizer
+3. Apple Grace Gesalan
+4. Estefania Aguilar-Velez
+
 
 ## License
 
