@@ -676,7 +676,7 @@
 	width: 290px;
 	height: 43px;
     padding: 8px;
-    border: 2px solid #F6871F;
+    border: 2px solid #83ECD3;
     border-radius:  30px;
     background-color: #f7f7f7;
     margin-bottom: 15px;
@@ -700,8 +700,8 @@
 #footer-newsletter input[type="submit"] {
     width: 290px;
 	height: 43px;
-    background-color: #F6871F;
-    color: #fff;
+    background-color: #83ECD3;
+    color: black;
     border: none;
     transition: all 200ms ease-in;
 	font: inherit;
@@ -709,7 +709,7 @@
 
 #footer-newsletter input[type="submit"]:hover {
     background-color: white;
-    color: #F6871F;
+    color: #83ECD3;
     cursor: pointer;
 }
 
@@ -1222,6 +1222,7 @@
     text-align: center;
     font-size: 20px;
     margin-top: 10px;
+    color: white;
 }
 
 .tools ul {
