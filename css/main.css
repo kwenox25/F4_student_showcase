@@ -63,7 +63,8 @@
  }
  
  #main-nav ul li a:hover {
-    color: #F6871F;
+    color: #3E1F5E;
+    border-bottom: 3px solid #3E1F5E;
  }
  
  #main-nav ul li {
@@ -1233,6 +1234,14 @@
     margin-top: 10px; 
 }
 
+.studentPortfoliocon h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px; 
+}
+
+
 #IDP h4 {
     text-align: left;
 }
@@ -1265,6 +1274,7 @@
     border: solid 1px #49B293; 
     background-color: #3E1F5E;
     border-radius: 30px;
+    box-shadow: 1px 2px 5px black;
   }
 
 .review img {
@@ -1304,20 +1314,55 @@
 
   .student-names ul {
     list-style: none;
+    padding-top: 30px;
 
 }
 
 .student-names ul li {
+   
    text-align: center;
-  margin-bottom: 10px;
-  
-
+   margin-bottom: 10px;
 }
 
 .student-names ul li a {
     color: white;
-    font-size: 10px;    
+    font-size: 10px;
+    background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #83ECD3 50%,
+        #fff 50%
+      );
+      background-size: 200% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;  
+    
+ }
 
+ 
+ .student-names ul li a:hover {
+    background-position: 0;
+	font-size:80%;
+
+ }
+
+ .student-names ul li a:before {
+    content: '';
+    background: #54b3d6;
+    /* display: block; */
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out; 
+
+ }
+
+ .student-names ul li a:hover::before {
+    width: 100%;
  }
 
 
@@ -1932,7 +1977,7 @@
             margin-right: 10%;
         }
 
-        .slide:nth-child(1) {
+        /* .slide:nth-child(1) {
         background-color: #49b293;
         }
 
@@ -1947,7 +1992,7 @@
 
         .slide:nth-child(4) {
         background-color: #da6f2b;
-        }
+        } */
 
         .slides-container {
 
@@ -2002,7 +2047,11 @@
             -ms-overflow-style: none;
         }
         
-
+        .student-names ul li a:hover {
+            background-position: 0;
+            font-size:150%;
+        
+         }
        
         
    
@@ -2477,7 +2526,7 @@
 
 
   .slides-container {
-    height: calc(100vh - 2rem);
+    /* height: calc(100vh - 2rem); */
     width: 100%;
     display: flex;
     overflow: scroll;
@@ -2529,20 +2578,5 @@
     flex: 1 0 100%;
   }
   
-  .slide:nth-child(1) {
-    background-color: #49b293;
-  }
-  
-  .slide:nth-child(2) {
-    background-color: #b03532;
-  }
-  
-  .slide:nth-child(3) {
-    background-color: #6a478f;
-    margin: 0;
-  }
-  
-  .slide:nth-child(4) {
-    background-color: #da6f2b;
-  }
+
   
