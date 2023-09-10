@@ -216,21 +216,28 @@
     background-color: #ffffff00;
     cursor: pointer;
     box-shadow: none;
-    grid-row: 3/3;
+    /* grid-row: 3/3; */
+    margin-top: 56.6rem;
+    margin-left: 5.5rem;
+    position: absolute;
 }
 
 .pauseButton {
     background-color: #ffffff00;
     cursor: pointer;
     box-shadow: none;
-    grid-row: 3/3;
+    /* grid-row: 3/3; */
+    position: absolute;
+    grid-column: 2/3;
+    margin-top: 56.6rem;
+    margin-left:9rem;
 }
 
 .playButton i, .pauseButton i {
     color: #ffff;
     padding: 15px;
     background-color: none;
-    font-size: .7rem;
+    font-size: .6rem;
 }
 
 
@@ -239,13 +246,9 @@
     /* width: 100%; */
     max-width: 1920px !important;
     max-height: 1080px !important;
-
+    position: relative;
+    margin-top: 10px;
 }
-
-
-.buttonEffect:hover {
-    box-shadow: #F69797 0 0 0 10px, transparent 0 0 0 0;
-  } */
 
 
 #hero-con h5 {
@@ -1462,14 +1465,18 @@
         box-shadow: none;
         margin-left: 79%;
         position: absolute;
+        margin-left: 73.3%;
+        margin-top: 22rem;
     }
     .playButton {
         background-color: #ffffff00;
         cursor: pointer;
         margin-top: 33%;
         box-shadow: none;
-        margin-left: 75%;
+        margin-left: 72.5%;
         position: absolute;
+        margin-left: 66.5%;
+        margin-top: 22rem;
     }
     
     .playButton i {
@@ -1477,6 +1484,7 @@
         padding: 15px;
         background-color: none;
         font-size: .7rem;
+    
     }
     
     .pauseButton i {
@@ -1484,14 +1492,16 @@
         padding: 15px;
         background-color: none;
         font-size: .7rem;
+        
     }
     
     #myVideo {
-        height: 43%;
+        height: 37%;
         /* width: 100%; */
         max-width: 1920px !important;
         max-height: 1080px !important;
         position: relative;
+        margin-top: 0;
     }
 
      #contact-now-top {
@@ -2526,6 +2536,52 @@
         /* background-color: #3E1F5E; */
         height: 680px;
       
+    }
+
+    .pauseButton {
+        background-color: #ffffff00;
+        cursor: pointer;
+        margin-top: 33%;
+        box-shadow: none;
+        margin-left: 79%;
+        position: absolute;
+        margin-left: 69.3%;
+        margin-top: 25.4rem;
+    }
+    .playButton {
+        background-color: #ffffff00;
+        cursor: pointer;
+        margin-top: 33%;
+        box-shadow: none;
+        margin-left: 72.5%;
+        position: absolute;
+        margin-left: 65%;
+        margin-top: 25.4rem;
+    }
+    
+    .playButton i {
+        color: #ffff;
+        padding: 15px;
+        background-color: none;
+        font-size: .7rem;
+    
+    }
+    
+    .pauseButton i {
+        color: #ffff;
+        padding: 15px;
+        background-color: none;
+        font-size: .7rem;
+        
+    }
+    
+    #myVideo {
+        height: 42%;
+        /* width: 100%; */
+        max-width: 1920px !important;
+        max-height: 1080px !important;
+        position: relative;
+        margin-top: 0;
     }
 
 }
