@@ -21,15 +21,6 @@
 
 
 // video / play and pause
-let vid = document.getElementById("myVideo")
-    
-function playVid() { 
-  vid.play(); 
-} 
-
-function pauseVid() { 
-  vid.pause(); 
-}
 
 
 const slider = document.querySelector('.gallery');
