@@ -17,10 +17,6 @@
     object-fit: cover;
  }
 
- .promo {
-    height: 277px;
-    object-fit: cover;
- }
 
 /* 2. ---Main Nav--- */
 
@@ -217,7 +213,7 @@
     cursor: pointer;
     box-shadow: none;
     /* grid-row: 3/3; */
-    margin-top: 56.6rem;
+    margin-top: 190%;
     margin-left: 5.5rem;
     position: absolute;
 }
@@ -228,8 +224,7 @@
     box-shadow: none;
     /* grid-row: 3/3; */
     position: absolute;
-    grid-column: 2/3;
-    margin-top: 56.6rem;
+     margin-top: 190%;
     margin-left:9rem;
 }
 
@@ -242,8 +237,7 @@
 
 
 #myVideo {
-    height: 47%;
-    /* width: 100%; */
+    height: 50%;
     max-width: 1920px !important;
     max-height: 1080px !important;
     position: relative;
@@ -844,14 +838,12 @@
     padding-top: 20px;
 }
 
-/* Shop Page */
+
 #shopSection {
     height: 2238px;
 }
 
-#promo-con {
-   background-color: #212221;
-}
+
 .promo {
     height: 427px;
     
@@ -861,13 +853,7 @@
     padding-top: 40px;
    background-color: #FFF5F4;
 }
-#promo-con h2 {
-    color: white;
-}
 
-.product-heading {
-    font-weight: 500;
-}
 
 #product-photos {
     padding-top: 10px;
@@ -875,40 +861,6 @@
 }
 
 
-.items {
-    background-color: #F69797;
-    height: 393px;
-    margin-bottom: 20px;
-    margin-bottom: 20px;
-}
-
-
-.items:hover .product-details {
-	opacity: 1;
-}
-
-.product-details {
-    margin-top: -30px;   
-    text-align: center;
-    height: 30px; 
-	transition: .7s ease;
-	opacity: 0;
-    position: relative;
-} 
-
-.product-details h3 {
-    color: white;
-	text-align: center;
-    font-size: 25px; 
-
-}
-
-.product-heading select {
-    height: 45px;
-   border-style: none;
-   width: 270px;
-   background-color: white;
-}
 .filter h3 {
     font-size: 30px;
     margin-bottom: 30px;
@@ -918,36 +870,12 @@
     text-align: right;
 }
 
-.categories ul {
-    padding-left: 0;
-    list-style-type: none;
-}
-
-.categories ul li {
-    padding-left: 0;
-    margin-bottom: 10px;
-}
-.categories ul li a {
-    font-size: 18px;
-    text-decoration: none;
-    color: #2c2c2c;
-}
-
-.categories ul li a:hover {
-    border-bottom: 3px solid #F6871F;
-}
-
-.categories h3 {
-    font-size: 30px;
-}
 
 .tags h3 {
     font-size: 30px;
 }
 
-.categories {
-    order: 5;
-}
+
   .tags {
     order: 6;
   }
@@ -1041,81 +969,12 @@
     border: 2px solid #F6871F;
 }
 
-.paragraphBold, .totalAmount {
-    font-weight: 700;
-}
-.totalAmount, .shipping {
-    text-align: right;
-}
-
-.shipping {
-    font-size: 12px;
-}
-
-.standardShipping {
-    font-size: 12px;
-    text-align: center;
-}
-
-.standardShipping span {
-    font-weight: 700;
-}
-
-.lightbox:target { display: block; }
-
-.tags ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.tags ul li {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.tags ul li a {
-    font-size: 18px;
-    color: #2c2c2c;
-    line-height: 1.5em;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-.tags ul li a:hover {
-    color: white;
-    background-color: #F6871F;
-    padding: 5px;
-    box-shadow: inset 200px 0 0 0 #F6871F;;
-   
-}
 
 .responsive {
     width: 100%;
     height: auto;
   }
 
-.payment {
-    background-color: #F6871F;
-    height: 50px;
-    border-radius: 30px;
-}
-
-.payment h3 {
-    color: white;
-    text-align: center;
-    padding-top: 13px;
-}
-
-.payment:hover {
-    background-color: white;
-    border: 2px solid #F6871F;
-}
-
-.payment h3:hover {
-    
-    color: #F6871F;
-    text-align: center;
-    padding-top: 13px;
-}
 
 
 .gallery::-webkit-scrollbar { 
@@ -1614,49 +1473,15 @@
         height: 354px;
     }
 
-    .Qproduct {
-        height: 201px;
-    }
-    #product-two, #product-three, #product-four, #product-five {
-        display: flex;
-        object-fit: cover;
-        justify-content: center;
-    }
-
+  
+ 
 
    #aboutUs-con {
     background-color: #FFF5F4;
     height: 400px;
     }
 
-    .specialOffers {
-        height: 95px;
-        grid-row: 2/3;
-    }
-    
-    .drinksNumber {
-        height: 303px;
-        position: relative;
-        grid-row: 2/3;
-    }
-
-        
-    .drinksNumber h3 {
-        margin-top: 80px;
-        transform: rotate(-10deg);
-        font-size: 18px;
-        text-align: center;
-        font-weight: 500;
-    }
-
-    .drinksNumber h4 {
-        margin-top: 10px;
-        transform: rotate(-10deg);
-        font-size: 10px;
-        text-align: center;
-        font-weight: 500;
-    }
-
+   
 
     .drinksNumber h3 span {
         font-weight: 700;
