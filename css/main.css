@@ -127,7 +127,7 @@
 
 #hero-con {
     background-color: #3E1F5E;
-    height: 600px;
+    height: 1033px;
     object-fit: cover;
    
 }
@@ -210,38 +210,40 @@
     color: #F6871F;
 }
 
-.playButton {
-    background-color: #EE6161;
-    border-radius: 50%;
-    outline: none;
-    height: 60px;
-    width: 60px;
+.playButton{
+    background-color: #ffffff00;
     cursor: pointer;
-    margin-left: 30px;
+    box-shadow: none;
+    grid-row: 3/3;
 }
-/* 
-.playButton {
-    grid-row: 2/3;
-} */
+
+.pauseButton {
+    background-color: #ffffff00;
+    cursor: pointer;
+    box-shadow: none;
+    grid-row: 3/3;
+}
+
+.playButton i, .pauseButton i {
+    color: #ffff;
+    padding: 15px;
+    background-color: none;
+    font-size: .7rem;
+}
+
 
 #myVideo {
-    width: 100% !important;
-    height: auto;
+    height: 47%;
+    /* width: 100%; */
     max-width: 1920px !important;
     max-height: 1080px !important;
-    position: relative;
-}
-
-.playButton i {
-    color: white;
-    font-size: 25px;
-    padding: 15px;
 
 }
+
 
 .buttonEffect:hover {
     box-shadow: #F69797 0 0 0 10px, transparent 0 0 0 0;
-  }
+  } */
 
 
 #hero-con h5 {
@@ -253,22 +255,6 @@
 }
 
 
-#shopOnline {
-    margin-top: -90px;
-    height: 34px;
-    grid-row: 4/4;
-    border-radius: 50px;
-}
-
-#shopOnline:hover {
-    color: #B29961;
-    background-color: white;
-    border: 2px solid  #B29961;
-}
-
-#shopOnline > h4:hover {
-    color: #B29961;
-}
 
 #features-con {
     background-color: #E3F4EE;
@@ -284,20 +270,7 @@
     display: none;
 }
 
-.Qproduct {
-    background-color: #FFF5F4;
-    border-radius: 100px;
-    height: 315px;
-}
 
-.Qproduct:hover {
-    background-color: #FFD2DC;
-}
-
-.Qproduct img:hover {
-    transform: scale(0.8);
-    transition: .5s ease;
-}
 #productsCon2 h2 {
     margin-top: 30px;
     font-size: 35px;
@@ -1139,9 +1112,6 @@
     padding-top: 13px;
 }
 
-#myVideo { display: none; }
-
-
 
 .gallery::-webkit-scrollbar { 
     width: 0;
@@ -1479,6 +1449,44 @@
      }
   
 
+     .pauseButton {
+        background-color: #ffffff00;
+        cursor: pointer;
+        margin-top: 33%;
+        box-shadow: none;
+        margin-left: 79%;
+        position: absolute;
+    }
+    .playButton {
+        background-color: #ffffff00;
+        cursor: pointer;
+        margin-top: 33%;
+        box-shadow: none;
+        margin-left: 75%;
+        position: absolute;
+    }
+    
+    .playButton i {
+        color: #ffff;
+        padding: 15px;
+        background-color: none;
+        font-size: .7rem;
+    }
+    
+    .pauseButton i {
+        color: #ffff;
+        padding: 15px;
+        background-color: none;
+        font-size: .7rem;
+    }
+    
+    #myVideo {
+        height: 43%;
+        /* width: 100%; */
+        max-width: 1920px !important;
+        max-height: 1080px !important;
+        position: relative;
+    }
 
      #contact-now-top {
         color: #fff;

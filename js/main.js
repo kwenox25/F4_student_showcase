@@ -18,30 +18,8 @@
 	button.addEventListener("click", hamburgerMenu, false);		
 })();
 
-//Can also be written like this:
-//(() => {  })();   
-
-// Info about IIFE https://flaviocopes.com/javascript-iife/
 
 
-// video / play
-let vid = document.getElementById("myVideo"),
-    icon = document.querySelector(".fa.fa-play");
-
-function playVid() { 
- 
-  if (vid.style.display == 'none') {
-    vid.style.display = 'block';
-    vid.play();
-    icon.className = "fa fa-close";
-  } else {
-  
-    vid.style.display = 'none';
-    vid.pause();
-    icon.className = "fa fa-play";
-  }
-
-} 
 
 const slider = document.querySelector('.gallery');
 let isDown = false;
