@@ -237,7 +237,8 @@
 
 
 #myVideo {
-    height: 50%;
+    height: 47%;
+    /* width: 100%; */
     max-width: 1920px !important;
     max-height: 1080px !important;
     position: relative;
@@ -362,66 +363,6 @@
     height: 118px;   
 }
 
-
-.drinksNumber {
-    background-color: #FB8779;
-    height: 475px;
-    border-radius: 30px;
-}
-
-.drinksNumber h3 {
-    margin-top: 100px;
-    transform: rotate(-10deg);
-    font-size: 50px;
-    text-align: center;
-    font-weight: 500;
-    color: white;
-    text-shadow: 
-    1px 0px 1px #cc7066, 0px 1px 1px #f08c81, 
-    2px 1px 1px #cc7066, 1px 2px 1px #f08c81,
-    3px 2px 1px #cc7066, 2px 3px 1px #f08c81,
-    4px 3px 1px #cc7066, 3px 4px 1px #f08c81,
-    5px 4px 1px #cc7066, 4px 5px 1px #f08c81,
-    6px 5px 1px #cc7066, 5px 6px 1px #f08c81,
-    7px 6px 1px #cc7066;
-}
-
-.drinksNumber h4 {
-    margin-top: 10px;
-    transform: rotate(-10deg);
-    font-size: 20px;
-    text-align: center;
-    font-weight: 500;
-    color: white;
-    text-shadow: 
-    1px 0px 1px #cc7066, 0px 1px 1px #f08c81, 
-    2px 1px 1px #cc7066, 1px 2px 1px #f08c81,
-    3px 2px 1px #cc7066, 2px 3px 1px #f08c81,
-    4px 3px 1px #cc7066, 3px 4px 1px #f08c81,
-    5px 4px 1px #cc7066, 4px 5px 1px #f08c81,
-    6px 5px 1px #cc7066, 5px 6px 1px #f08c81,
-    7px 6px 1px #cc7066;
-}
-
-
-.drinksNumber h3 span {
-    font-weight: 700;
-    font-size: 70px;
-}
-
-.drinksNumber h4 span {
-    font-weight: 500;
-    font-size: 25px;
-}
-
-.foodDisplay {
-    height: 232px;   
-}
-
-.drinksDisplay {
-    height: 232px;
-
-}
 
 .latestProducts {
     padding-top: 55px;
@@ -2256,33 +2197,7 @@
         height: 731px;
     }
 
-    #product-grapefruit {
-        order: 1;
-    }
 
-    #product-pineapple {
-        order: 1;
-    }
-
-    #product-photos {
-        margin-top: -30px;
-    }
-    .categories {
-        margin-top: 40px;
-        order: 1;
-      }
-
-    #product-orange {
-        order: 1;
-    }
-
-    #product-passionfruit {
-        order: 2;
-    }
-
-    .tags {
-        order: 6;
-      }
       /* Shop */
       .product-details {
         margin-top: -110px; 
